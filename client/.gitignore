@@ -8,25 +8,25 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Dependencies
-node_modules
+node_modules/
+client/node_modules/
+server/node_modules/
 
 # Build files
-dist
-dist-ssr
-build
+dist/
+dist-ssr/
+build/
+client/dist/
+server/dist/
 
 # Environment files
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Editor directories
+.vscode/
+.idea/
 
 # System files
 .DS_Store
